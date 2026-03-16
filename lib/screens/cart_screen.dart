@@ -153,8 +153,8 @@ class CartScreen extends StatelessWidget {
                                       const SizedBox(height: 4),
                                       Text(
                                         "₹${(product.price * quantity).toStringAsFixed(2)}",
-                                        style: const TextStyle(
-                                          color: Colors.deepPurple,
+                                        style: TextStyle(
+                                          color: Colors.green[900],
                                           fontWeight: FontWeight.bold,
                                         ),
                                       ),
@@ -167,9 +167,9 @@ class CartScreen extends StatelessWidget {
                                   mainAxisSize: MainAxisSize.min,
                                   children: [
                                     IconButton(
-                                      icon: const Icon(
+                                      icon: Icon(
                                         Icons.remove_circle_outline,
-                                        color: Colors.deepPurple,
+                                        color: Colors.green[900],
                                       ),
                                       onPressed: () =>
                                           cart.removeFromCart(product),
@@ -182,9 +182,9 @@ class CartScreen extends StatelessWidget {
                                       ),
                                     ),
                                     IconButton(
-                                      icon: const Icon(
+                                      icon: Icon(
                                         Icons.add_circle_outline,
-                                        color: Colors.deepPurple,
+                                        color: Colors.green[900],
                                       ),
                                       onPressed: () => cart.addToCart(product),
                                     ),
@@ -226,10 +226,10 @@ class CartScreen extends StatelessWidget {
                             ),
                             Text(
                               "₹${cart.totalPrice.toStringAsFixed(2)}",
-                              style: const TextStyle(
+                              style: TextStyle(
                                 fontSize: 20,
                                 fontWeight: FontWeight.bold,
-                                color: Colors.deepPurple,
+                                color: Colors.green[900],
                               ),
                             ),
                           ],
@@ -244,7 +244,7 @@ class CartScreen extends StatelessWidget {
                             );
                           },
                           style: ElevatedButton.styleFrom(
-                            backgroundColor: Colors.purpleAccent,
+                            backgroundColor: Colors.green[900],
                             foregroundColor: Colors.white,
                             padding: const EdgeInsets.symmetric(
                               horizontal: 32,

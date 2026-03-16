@@ -22,6 +22,7 @@ class ProductDetail extends StatelessWidget {
       backgroundColor: Colors.grey[100],
 
       appBar: AppBar(
+        centerTitle: true,
         title: const Text("Product Details"),
         backgroundColor: Colors.green[900],
         foregroundColor: Colors.white,
@@ -174,6 +175,7 @@ class ProductDetail extends StatelessWidget {
                                 Text(
                                   "$quantity in cart",
                                   style: const TextStyle(
+                                    fontSize: 18,
                                     color: Colors.white,
                                     fontWeight: FontWeight.bold,
                                   ),
@@ -196,19 +198,7 @@ class ProductDetail extends StatelessWidget {
                                 borderRadius: BorderRadius.circular(10),
                               ),
                             ),
-                            onPressed: () {
-                              cart.addToCart(product);
-
-                              ScaffoldMessenger.of(context)
-                                ..hideCurrentSnackBar()
-                                ..showSnackBar(
-                                  SnackBar(
-                                    content: Text(
-                                      "${product.title} added to cart",
-                                    ),
-                                  ),
-                                );
-                            },
+                            onPressed: () => cart.addToCart(product),
                             icon: const Icon(
                               Icons.shopping_cart,
                               color: Colors.white,
