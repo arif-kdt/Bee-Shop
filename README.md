@@ -7,7 +7,8 @@ A smart Flutter e-commerce app for browsing and purchasing products with a clean
 ## 📱 Screenshots
 ![photo_2026-03-16_22-19-04](https://github.com/user-attachments/assets/c8fa08fe-f0cb-4883-ab3e-912c9df48f55)
 ![photo_2026-03-16_22-19-09](https://github.com/user-attachments/assets/fbae1642-4788-41e0-9ec1-b95f1cddf5f8)
-![photo_2026-03-16_22-19-13](https://github.com/user-attachments/assets/a7a25650-f9a2-4e40-a15b-6c6420068a20)
+![photo_2026-03-17_11-16-15](https://github.com/user-attachments/assets/473bd576-013e-4aef-a50a-4967e779ea58)
+
 
 ---
 
