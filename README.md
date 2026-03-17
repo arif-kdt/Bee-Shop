@@ -122,5 +122,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## 👤 Author
 
-**Your Name**  
+**ARIF RAHMATH MANZIL**  
 GitHub: [@arif-kdt](https://github.com/arif-kdt)
